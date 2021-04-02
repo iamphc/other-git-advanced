@@ -14,8 +14,30 @@
 git log 
 ```
 
-- 常用参数
+- 常用参数（从使用频率由高到低排序）
 ```
+// 每个提交一行显示
+--online 
+
+// 显示作者为author的所有提交
+--author=<author>
+--committer=<author>
+
+// 限制显示的日志数量
+-number / -n <number> / --max-count=<number>
+
+// 从最新提交开始，跳过指定个数的提交
+--skip=<number>
+
+// 显示在某个提交之前的所有提交
+--until=<date>
+--before=<date>
+
+// 显示在某个提交之前的所有提交
+--since=<date>
+--after=<date>
+
+// 其他参数，请自行查阅
 ```
 
 - 
