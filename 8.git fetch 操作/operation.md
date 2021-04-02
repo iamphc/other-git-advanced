@@ -14,3 +14,8 @@ git fetch
 ### 常见实际操作 & 碰到的问题说明👨‍🦲
 
 - 场景一：
+```
+git checkout 分支名 // 报错，本地没有该分支
+git fetch
+git chekcout 分支名 // 成功
+```
