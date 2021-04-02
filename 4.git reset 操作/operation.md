@@ -1,9 +1,9 @@
 [toc]
 
-### 概念
+### 概念👨‍🦲
 [git reset](https://git-scm.com/docs/git-reset)
 
-### 常用操作
+### 常用操作👨‍🦲
 - git reset [--soft/hard/mixed/merge/keep] [HEAD^/HEAD~n]
 
 |比较项|soft|hard|mixed|merge|keep|
@@ -25,7 +25,7 @@
   - mixed：不改变任何文件，但是对回退到某版本的之前的提交的所有文件，将它们所属的hashid丢掉【不太常用】
   - merge【不太常用】
 
-### 常见实际操作 & 碰到的问题说明
+### 常见实际操作 & 碰到的问题说明👨‍🦲
 - 在分支上版本回退
 ```
 // 找到你要回退到的版本：提交的hashid
