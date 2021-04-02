@@ -99,4 +99,6 @@ git cherry-pick <commitHASH>
 
 **场景三：在某分支上修复了bug/增加了需求。但是，需要在新的分支上修复同样的bug/增加同样的需求**
 ```
+git checkout 目标分支
+git cherry-pick <commitHASH1> // 如果bug修复/需求增加，涉及到了多个提交，那么需要使用上面讲到的「将多个提交记录应用到当前分支」的操作
 ```
